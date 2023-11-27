@@ -1,0 +1,25 @@
+* {
+    box-sizing: border-box;
+}
+
+header {
+    background-color: black;
+    height: 100px;
+
+}
+.logo {
+    width: 200px;
+    padding-top: 20px;
+    padding-left: 15px;
+}
+.menu {
+    display: inline-block;
+
+}
+.menu_li {
+    display: inline;
+    color: white;
+}
+.section_1 {
+    background-color: #64a4e3
+}
