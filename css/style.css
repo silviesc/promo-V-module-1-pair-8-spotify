@@ -1,25 +1,83 @@
 * {
     box-sizing: border-box;
 }
-
+:root {
+    --color-section-1: whitesmoke;
+    --font-section-1: verdana;
+    --color-footer: grey;
+    --font-footer: tahoma;
+}
 header {
     background-color: black;
     height: 100px;
-
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 .logo {
-    width: 200px;
-    padding-top: 20px;
-    padding-left: 15px;
+    display: flex;
+    margin: 20px;
 }
 .menu {
-    display: inline-block;
-
+    display: flex;
+    margin: 20px;
+    width: 60%;
+}
+.menu_items {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
 }
 .menu_li {
     display: inline;
     color: white;
 }
 .section_1 {
-    background-color: #64a4e3
+    background-color: #64a4e3;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
+h1 {
+    color: var(--color-section-1);
+    font: var(--font-section-1);
+    font-size: 120px;
+}
+h3 {
+    color: var(--color-section-1);
+    font: var(--font-section-1);
+    font-size: 40px;
+}
+.a_section_1 {
+    color: var(--color-section-1);
+    font: var(--font-section-1);
+    font-size: 20px;
+}
+.p_section_1 {
+    color: var(--color-section-1);
+    font: var(--font-section-1);
+    font-size: 15px;
+}
+.section_2_box {
+    display: flex;
+    flex-direction: row;
+    width: 50vw;
+}
+.footer {
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    justify-content: space-between;
+    background-color: black;
+    color: var(--color-footer);
+    font-family: var(--font-footer);
+}
+.footer_menu {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    width: 30%;
+    gap: 20px;
+}
+
