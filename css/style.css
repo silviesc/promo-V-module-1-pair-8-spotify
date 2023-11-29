@@ -9,10 +9,12 @@
 }
 header {
     background-color: black;
-    height: 100px;
+    height: 60px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    position: sticky;
+    top: 0;
 }
 .logo {
     display: flex;
@@ -36,8 +38,23 @@ header {
 .section_1 {
     background-color: #64a4e3;
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+    flex-direction: column;
+    height: 50vh;
+    background-image: url("../images/premium_dancer.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 45vh;
+    
+    
+}
+
+.dancer {
+     position: relative;
+     left: 700px;
+     width: 600px;
+     order: 2;
+     display: inline-block;
+    
 }
 h1 {
     color: var(--color-section-1);
@@ -48,6 +65,12 @@ h3 {
     color: var(--color-section-1);
     font: var(--font-section-1);
     font-size: 40px;
+}
+
+.section_1_text {
+    justify-content: flex-start;
+    order: 1;
+
 }
 .a_section_1 {
     color: var(--color-section-1);
@@ -81,3 +104,11 @@ h3 {
     gap: 20px;
 }
 
+.section_2_box {
+    display: flex;
+    flex-direction: row; 
+}
+
+.section_2_box_1 {
+    width: 50vw;
+}
