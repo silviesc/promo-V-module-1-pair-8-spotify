@@ -1,4 +1,6 @@
 * {
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
 :root {
@@ -6,36 +8,42 @@
     --font-section-1: verdana;
     --color-footer: grey;
     --font-footer: tahoma;
+    font-size: 62.5%;
 }
-header {
+.header {
     background-color: black;
-    height: 60px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    background-image: url();
     position: sticky;
     top: 0;
+    width: 100vw;
+    height: 10vh;
+}
+.image {
+    width: 16%;
 }
 .logo {
-    display: flex;
-    margin: 20px;
+    width: 100%;
 }
 .menu {
+    color: var(--color-section-1);
+    align-items: center;
     display: flex;
     margin: 20px;
     width: 60%;
 }
 .menu_items {
+    list-style: none;
     display: flex;
     flex-direction: row;
-    width: 100%;
-    justify-content: space-between;
+    gap: 10px;
 }
 .menu_li {
     display: inline;
     color: white;
-}
+    font-size: 2rem;
+} 
 .section_1 {
     background-color: #64a4e3;
     display: flex;
@@ -45,8 +53,6 @@ header {
     background-repeat: no-repeat;
     background-position: right;
     background-size: 45vh;
-    
-    
 }
 
 .dancer {
@@ -60,12 +66,12 @@ header {
 h1 {
     color: var(--color-section-1);
     font: var(--font-section-1);
-    font-size: 120px;
+    font-size: 12rem;
 }
 h3 {
     color: var(--color-section-1);
     font: var(--font-section-1);
-    font-size: 40px;
+    font-size: 4rem;
 }
 
 .section_1_text {
@@ -76,12 +82,12 @@ h3 {
 .a_section_1 {
     color: var(--color-section-1);
     font: var(--font-section-1);
-    font-size: 20px;
+    font-size: 2rem;
 }
 .p_section_1 {
     color: var(--color-section-1);
     font: var(--font-section-1);
-    font-size: 15px;
+    font-size: 1.5rem;
 }
 .section_2_box {
     display: flex;
