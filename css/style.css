@@ -13,6 +13,7 @@ header {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    background-image: url();
 }
 .logo {
     display: flex;
@@ -38,6 +39,7 @@ header {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    height: 50vh;
 }
 h1 {
     color: var(--color-section-1);
