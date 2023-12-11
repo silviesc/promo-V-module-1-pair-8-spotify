@@ -1,8 +1,16 @@
-.page__footer {
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100vw;
-  padding: 1rem;
-  color: $color-secondary;
+.footer {
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    justify-content: space-between;
+    background-color: black;
+    color: var(--color-footer);
+    font-family: var(--font-footer);
+}
+.footer_menu {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    width: 30%;
+    gap: 20px;
 }

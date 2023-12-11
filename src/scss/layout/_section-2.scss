@@ -1,0 +1,19 @@
+.section_2 {
+    display: flex;
+    justify-content: center;
+
+}
+.fig {
+    width: 150px;
+    margin-left: 20px;
+}
+.img {
+    width: 100%;
+    margin: auto;
+}
+
+.section_2_box {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+}
