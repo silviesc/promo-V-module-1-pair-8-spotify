@@ -1,5 +1,38 @@
-.page__header {
+.header {
+  background-color: $backgroundcolor-header-footer;
+  width: 100vw;
   display: flex;
-  justify-content: space-evenly;
-  margin-bottom: 3rem;
+  justify-content: space-between;
+ /*  top: 0;
+  width: 100vw;
+  height: 10vh;  */
+
+  &__logo {
+      width: 20vw;
+      padding: 5px;
+      margin-left: 8px;
+  }
+
+}
+
+
+.menu {
+  font-family: $font-principal;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  width: 60%; 
+
+  &__ul {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+
+    &--li {
+    display: inline;
+    color: white;
+    font-size: 2rem;
+    } 
+  }
 }

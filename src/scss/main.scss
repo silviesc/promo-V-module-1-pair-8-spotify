@@ -1,12 +1,14 @@
-// @import 'core/variables';
-// @import 'core/reset';
-// @import 'components/code';
-// @import 'components/links';
-// @import 'layout/page';
-// @import 'layout/header';
-// @import 'layout/footer';
-// @import 'pages/index';
+@import 'core/variables';
+@import 'core/reset'; 
+/* @import 'components/code';
+@import 'components/links';
+@import 'layout/page';
+@import 'layout/header';
+@import 'layout/footer';
+@import 'pages/index';  */
 
+@import 'layout/header';
+/* 
 * {
     margin: 0;
     padding: 0;
@@ -19,22 +21,8 @@
     --font-footer: tahoma;
     font-size: 62.5%;
 }
-.header {
-    background-color: black;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    position: sticky;
-    top: 0;
-    width: 100vw;
-    height: 10vh;
-}
-.image {
-    width: 16%;
-}
-.logo {
-    width: 100%;
-}
+
+
 .menu {
     color: var(--color-section-1);
     align-items: center;
@@ -128,3 +116,4 @@ h3 {
 .section_2_box_1 {
     width: 50vw;
 }
+ */
