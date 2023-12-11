@@ -8,7 +8,7 @@
     --font-section-1: verdana;
     --color-footer: grey;
     --font-footer: tahoma;
-    font-size: 62.5%;
+    --font-size: 62.5%;
 }
 .header {
     background-color: black;
